@@ -1,5 +1,95 @@
-*{outline: 1px solid red;}
+
 /*--------------------------------------header---------------------------------------*/
 header{
     background-color: #f8f8f8;
+}
+header ul li, h3{
+    padding: 5px;
+    margin: 10px 2%;
+}
+header ul li a, h3{
+    color:#938487;
+    text-decoration: none;
+}
+header h3{
+    float: left;
+}
+header ul li:hover{
+    background-color: #e7e7e7;
+}
+/*--------------------------------------sectionh hero---------------------------------------*/
+.hero{
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    color: white;
+}
+h1{
+  margin-top: 180px;  
+}
+p{
+    color: black;
+}
+button{
+    border-radius: 5%;
+    border: 1px solid #337ab7;
+    background-color: #337ab7;
+    padding: 0.7%;
+    width:100px;
+    font-size: 100%;
+}
+button:hover{
+   background-color: deepskyblue;
+}
+/*--------------------------------------section documental---------------------------------------*/
+.documental{
+    margin: 30px 0;
+    color: black;
+    text-align: center;
+}
+.documental h3{
+    color: black;
+}
+.documental p{
+    text-align: left;
+}
+/*--------------------------------------section hackathon---------------------------------------*/
+.hackathon{
+    background-color: #ffff00;
+    padding: 60px;
+    margin-bottom: 30px;
+}
+.hackathon h3{
+    text-align: center;
+    color: black;
+}
+.hackathon button{
+    color: white;
+}
+/*--------------------------------------section formulario---------------------------------------*/
+.formulario h4{
+    text-align: center;
+}
+input, textarea{
+    margin: 8px 0;
+    padding-left: 3%;
+    border-radius: 5%;
+    width: 90%;
+}
+textarea{
+    height: 120px;
+}
+.formulario button{
+    color: white;
+    width: 30%;
+}
+/*--------------------------------------footer---------------------------------------*/
+footer{
+    background-color: #4497a3;
+    padding: 30px 0;
+    color: white;
+}
+footer a{
+    color: yellow;
 }
