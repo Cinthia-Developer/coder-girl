@@ -26,7 +26,7 @@ h1{
 p{
     color: black;
 }
-#hero button{
+#hero button, #hackathon button, #formulario button{
     border-radius: 5%;
     border: 1px solid #337ab7;
     background-color: #337ab7;
