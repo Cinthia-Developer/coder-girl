@@ -4,32 +4,44 @@
 	<meta charset="UTF-8">
 	<title>Coder Girl</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <!-----------------------------------------------------header---------------------------------------------------->
-	<header>
-	    <div class="container">
-	       <div class="row">
-	           <div class="col-md-6">
-	              <h3>Code Girls</h3> 
-	           </div><!--cierre de col-md-4-->
-	           
-	           <div class="col-md-6">
-	               <nav>
-	                   <ul class="list-unstyled list-inline text-right">
-	                       <li><a href="#">Inicio</a></li>
-	                       <li><a href="#">Documental</a></li>
-	                       <li><a href="#">Hackathon</a></li>
-	                       <li><a href="#">Contacto</a></li>
-	                   </ul>
-	               </nav>
-	           </div><!--cierre de col-md-4-->
-	       </div><!--cierre de row-->
-	    </div><!--cierre de container-->
-	</header>
-	
+<header>
+    <div class="container">
+         <nav class="navbar navbar-static-top " role="navigation">
+                    <!-- El logotipo y el icono que despliega el menú se agrupan
+                    para mostrarlos mejor en los dispositivos móviles -->
+                    <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Desplegar navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img  class="img-responsive size-logo" ><b>Code Girls</b> </a>
+                    </div>
+                    <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                    otro elemento que se pueda ocultar al minimizar la barra -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Documental</a></li>
+                    <li><a href="#">Hackathon</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                    </div>
+                    </nav>
+        
+    </div>
+</header>
 <!-----------------------------------------------------section hero---------------------------------------------------->
 	<section class="hero">
 	    <div class="container">
@@ -80,7 +92,7 @@
 	    <div class="container">
 	        <div class="row">
 	            <div class="col-md-8">
-	                <img  class="img-responsive" src="img/made_with_code.jpg" alt="">
+	                <img  class="img-responsive" src="img/made_with_code.jpg" alt=""><br><br>
 	            </div><!--cierre de col-m-8-->
 	            
 	            <div class="col-md-4">

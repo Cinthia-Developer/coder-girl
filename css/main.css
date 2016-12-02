@@ -1,22 +1,21 @@
-*{outline: 1px solid red;}
+
 /*--------------------------------------header---------------------------------------*/
 header{
     background-color: #f8f8f8;
 }
-header ul li, h3{
-    padding: 5px;
-    margin: 10px 2%;
+header h2, a{
+    color: #b1a79e;
 }
-header ul li a, h3{
-    color:#938487;
-    text-decoration: none;
+header .navbar{
+    margin-bottom: 0;
+    text-align: center;
 }
-header h3{
-    float: left;
+header button{
+    width: 12%;
+    margin-right: 0;
 }
-header ul li:hover{
-    background-color: #e7e7e7;
-}
+.navbar button span{background-color: #fff;}
+.navbar button{background: #0772be;}
 /*--------------------------------------sectionh hero---------------------------------------*/
 .hero{
     background-image: url(../img/home.jpg);
@@ -93,4 +92,16 @@ footer{
 }
 footer a{
     color: yellow;
+}
+/*-----------------------------------------@media-------------------------------------------*/
+@media screen and (min-width:768px) and (max-width:992px){
+    .hackathon {padding: 30px;}
+   
+}
+@media screen and (max-width:768px){
+    .navbar ul {background-color: #0772be;}
+    .navbar ul li:hover{background-color: white;}
+    header a{color: white;}
+    .navbar-brand{color: #b1a79e;}
+    .hackathon {padding: 20px 0;}
 }
